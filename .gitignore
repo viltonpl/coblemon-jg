@@ -1,0 +1,27 @@
+# Minecraft Server - Arquivos grandes e temporários
+
+# Mods (podem ser baixados novamente)
+mods/
+mods_disabled/
+
+# Bibliotecas e JARs do servidor
+libraries/
+versions/
+
+# Mundo (muito grande, fazer backup separado)
+world/
+world_*/
+
+# Logs
+logs/
+crash-reports/
+
+# Cache e temp
+.fabric/
+fancymenu_data/cached_data/
+fancymenu_data/fancymenu_temp/
+
+# Backups automáticos
+*.dat_old
+*.dat_mcr
+*.dat.bak
