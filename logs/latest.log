@@ -20965,3 +20965,19 @@
 [02:07:26] [nioEventLoopGroup-2-3/INFO]: failed to get ServerConnection from Minecraft Server
 [02:07:26] [nioEventLoopGroup-2-3/INFO]: connecting to minecraft server at localhost/127.0.0.1:25565
 [02:07:26] [nioEventLoopGroup-2-4/INFO]: connected to local minecraft server
+[02:08:04] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[02:08:04] [Server thread/INFO]: stopstop<--[HERE]
+[02:08:08] [Server thread/INFO]: Stopping the server
+[02:08:08] [Server thread/INFO]: Stopping server
+[02:08:08] [Server thread/INFO]: Saving players
+[02:08:08] [Server thread/INFO]: Saving worlds
+[02:08:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:08:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:08:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:08:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:08:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:08:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:08:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:08:11] [Server thread/INFO]: Discarded config watch service
+[02:08:11] [Server thread/INFO]: stopping playit
+[02:08:11] [Thread-20/INFO]: control channel shutdown
