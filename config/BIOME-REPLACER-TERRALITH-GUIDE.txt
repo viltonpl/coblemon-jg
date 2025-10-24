@@ -1,0 +1,82 @@
+# Configuração do Biome Replacer para resolver erros do Terralith
+
+# Este arquivo permite substituir biomas que causam erros no servidor
+# Útil quando o mundo foi gerado com mods de bioma que foram removidos
+
+# PROBLEMA COMUM:
+# [ERROR]: Unknown registry key in ResourceKey[minecraft:root / minecraft:worldgen/biome]: 
+# terralith:cave/granite_caves -> using default
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SOLUÇÃO 1: Reinstalar o mod Terralith (RECOMENDADO)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# 
+# Baixe e instale o mod Terralith compatível com Minecraft 1.21.1:
+# https://modrinth.com/mod/terralith
+# 
+# Coloque o arquivo .jar no diretório mods/ e reinicie o servidor
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# SOLUÇÃO 2: Substituir biomas do Terralith
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# Se você não quer reinstalar o Terralith, pode substituir os biomas
+# problemáticos por biomas padrão do Minecraft.
+#
+# FORMATO: old_biome > new_biome
+#
+# Exemplos de substituições de cavernas Terralith:
+
+# Cavernas de granito -> Cavernas de estalactites
+# terralith:cave/granite_caves > minecraft:dripstone_caves
+
+# Cavernas de diorito -> Cavernas exuberantes
+# terralith:cave/diorite_caves > minecraft:lush_caves
+
+# Cavernas de andesito -> Cavernas profundas
+# terralith:cave/andesite_caves > minecraft:deep_dark
+
+# Cavernas de calcário -> Cavernas normais
+# terralith:cave/limestone_caves > minecraft:plains
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# EXEMPLOS DE SUBSTITUIÇÕES DE BIOMAS TERRALITH
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Remover todos os biomas Terralith (substituir por null)
+# CUIDADO: Isso pode causar problemas visuais nos chunks
+# #terralith:* > null
+
+# Substituir biomas específicos do Terralith:
+# terralith:skylands > minecraft:plains
+# terralith:alpha_islands > minecraft:mushroom_fields
+# terralith:moonlight_grove > minecraft:dark_forest
+# terralith:blooming_valley > minecraft:flower_forest
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# WILDCARDS E TAGS
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Substituir todos os biomas de floresta por deserto
+# #minecraft:is_forest > minecraft:desert
+
+# Substituir biomas do End
+# #minecraft:is_end > null
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# COMO USAR
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# 1. Remova o # (comentário) da linha que você quer ativar
+# 2. Edite o bioma de destino se necessário
+# 3. Salve o arquivo
+# 4. Reinicie o servidor
+#
+# Para desativar, adicione # no início da linha novamente
+#
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# SUAS REGRAS PERSONALIZADAS ABAIXO:
+

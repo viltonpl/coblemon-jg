@@ -12,6 +12,14 @@
 java -Xmx8G -Xms4G -jar fabric.jar --nogui
 ```
 
+## 🔍 DIAGNOSTICAR PROBLEMAS
+
+```bash
+./diagnose-server.sh
+```
+
+Verifica mods, bibliotecas, logs e estrutura do servidor.
+
 ## 📚 Documentação Completa
 
 - **[README.md](./README.md)** - Guia completo de inicialização

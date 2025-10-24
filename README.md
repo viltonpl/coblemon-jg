@@ -117,6 +117,18 @@ coblemon-jg/
 
 ## 🔧 Comandos Úteis
 
+### Diagnosticar problemas do servidor
+```bash
+./diagnose-server.sh
+```
+
+Este script verifica:
+- ✅ Arquivos essenciais do servidor
+- ✅ Mods instalados (incluindo Terralith)
+- ✅ Bibliotecas do Fabric
+- ✅ Logs de erro
+- ✅ Mundo do Minecraft
+
 ### Parar o servidor
 ```bash
 # Digite no console do servidor:
