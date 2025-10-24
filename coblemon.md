@@ -1,2 +1,2 @@
    #INICIAR
-    java -Xmx8G -Xms4G -jar paper.jar --nogui
+    java -Xmx8G -Xms4G -jar fabric.jar --nogui
