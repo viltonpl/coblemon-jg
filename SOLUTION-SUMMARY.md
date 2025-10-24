@@ -101,34 +101,37 @@ Referência rápida com:
 
 ## 🎯 Como Usar a Solução
 
-### Passo 1: Diagnosticar
+### Passo 1: Diagnosticar (SEMPRE EXECUTE PRIMEIRO)
 ```bash
 ./diagnose-server.sh
 ```
-Identifica automaticamente todos os problemas.
+Identifica automaticamente todos os problemas no servidor.
 
-### Passo 2: Resolver Problemas
+### Passo 2: Resolver Problemas (CONFORME NECESSÁRIO)
 
-#### Se faltam bibliotecas do Fabric:
+#### Se faltam bibliotecas do Fabric (primeira execução):
 ```bash
-# Opção A: Execute em ambiente com internet
+# Opção A: Execute em ambiente com internet (RECOMENDADO)
+# As bibliotecas serão baixadas automaticamente
 ./start-server.sh
 
-# Opção B: Copie bibliotecas de outro servidor
+# Opção B: Copie bibliotecas de outro servidor Fabric 0.17.3
 cp -r /outro/servidor/.fabric/libraries .fabric/
 ```
 
-#### Se falta mod Terralith:
+#### Se falta mod Terralith (apenas se mundo existe com biomas Terralith):
 ```bash
 # Opção A: Reinstalar Terralith (recomendado)
-wget https://cdn.modrinth.com/data/.../terralith-VERSION.jar -O mods/terralith.jar
+# Baixe do site oficial: https://modrinth.com/mod/terralith
+# Escolha a versão compatível com Minecraft 1.21.1
+# Coloque o arquivo baixado em mods/terralith.jar
 
 # Opção B: Configurar Biome Replacer
 # Edite config/biome_replacer.properties seguindo o guia
 nano config/biome_replacer.properties
 ```
 
-### Passo 3: Iniciar Servidor
+### Passo 3: Iniciar Servidor (APÓS RESOLVER PROBLEMAS)
 ```bash
 ./start-server.sh
 ```
